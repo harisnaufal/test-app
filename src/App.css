@@ -1,0 +1,347 @@
+.login {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 30px 16px;
+  margin: 100px auto 0 auto;
+  width: 70%;
+}
+
+.login .title {
+  text-align: center;
+}
+
+.login .field {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: 1px solid #cccccc;
+  height: 30px;
+  border-radius: 12px;
+  padding: 0 10px;
+  font-size: 0.7rem;
+  margin-bottom: 20px;
+}
+
+.login .button-signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.login .button-signin button {
+  box-sizing: border-box;
+  width: 35%;
+  outline: none;
+  height: 30px;
+  border-radius: 12px;
+  padding: 0 10px;
+  font-size: 0.7rem;
+  background: gray;
+  color: white;
+  text-align: center;
+}
+
+.login .account {
+  display: grid;
+}
+
+.login .account .facebook {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 0.7rem;
+  background: #3b5998;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.login .account .google {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 0.7rem;
+  background: #4885ed;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.header .search-bar {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.header .search-bar--button {
+  flex: 1;
+  margin-left: 10px;
+  position: relative;
+}
+
+.header .search-bar--button button {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: 1px solid #cccccc;
+  height: 30px;
+  border-radius: 12px;
+  padding: 0 10px;
+  padding-left: 30px;
+  font-size: 0.7rem;
+  text-align: left;
+  background: #ffffff;
+}
+
+.header .search-bar--button .search-icon {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  left: 10px;
+}
+
+.header input {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: 1px solid #cccccc;
+  height: 30px;
+  border-radius: 12px;
+  padding: 0 10px;
+  font-size: 0.7rem;
+}
+
+.bottom-navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-navigation--menu {
+  flex: 1;
+  text-align: center;
+}
+
+.bottom-navigation--menu a {
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-card--wrapper {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.category-card {
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.category-card--image {
+  border: 1px solid #dddddd;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.category-card--image-skeleton {
+  border: 1px solid #f5f5f5;
+  background: #dddddd;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.category-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.category-card p {
+  font-size: 0.7rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+.category-card:first-child {
+  padding-left: 20px;
+}
+
+.category-card:last-child {
+  padding-right: 20px;
+}
+
+.product-card--wrapper {
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+
+.product-card--detail {
+  margin-bottom: 30px;
+}
+
+.product-card--list .product-card--detail-img {
+  position: relative;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  height: 200px;
+  overflow-y: hidden;
+}
+
+.product-card--list .product-card--detail-img-skeleton {
+  border: 1px solid #dddddd;
+  background: #dddddd;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 200px;
+  overflow-y: hidden;
+}
+
+.product-card--detail .favourite-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.product-card--detail h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.product-detail {
+  padding: 0 20px 40px 20px;
+  margin-top: 60px;
+}
+.product-detail--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-detail--title .product-detail--title-favourite {
+  width: 50px;
+}
+.product-detail--action {
+  box-sizing: border-box;
+  border-top: 1px solid #dddddd;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  background: #ffffff;
+}
+.product-detail--action h5 {
+  margin-right: 10px;
+}
+.product-detail--action button {
+  background: red;
+  height: 30px;
+  color: #ffffff;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+.product-detail--action button:hover {
+  background: #000000;
+}
+.purchase-history {
+  padding: 0 20px 40px 20px;
+  margin-top: 60px;
+}
+.purchase-history-list h5 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.purchase-history-list h6 {
+  margin: 0;
+  padding: 0;
+}
+.purchase-history-list-card {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+}
+.purchase-history-list-card-image {
+  margin-right: 15px;
+}
+
+.search-product {
+  padding: 0 20px 40px 20px;
+}
+.search-product-list h5 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.search-product-list h6 {
+  margin: 0;
+  padding: 0;
+}
+.search-product-list-card {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+}
+.search-product-list-card-image {
+  margin-right: 15px;
+}
+
+.back-button {
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+}
+.back-button h4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
